@@ -1,5 +1,5 @@
 # github-demo
 This is my first git repository.
 <p>
-  Author - akanksha
+  Author - akanksha jagtap
 </p>
