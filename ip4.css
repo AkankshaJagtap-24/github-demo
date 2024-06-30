@@ -1,0 +1,25 @@
+/* Set the background image */
+body {
+    background-image: url('img1.jpg');
+    background-size: cover;
+  }
+  
+  /* Style table headings with red background */
+  th {
+    background-color: red;
+  }
+  
+  /* Style alternate paragraphs with different background colors */
+  p:nth-child(even) {
+    background-color: blue; /* Light gray for even paragraphs */
+  }
+  
+  p:nth-child(odd) {
+    background-color: green; /* Slightly darker gray for odd paragraphs */
+  }
+  
+  /* Remove underline from hyperlinks */
+
+  a {
+    text-decoration: none;
+  }

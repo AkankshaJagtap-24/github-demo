@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Matching</title>
+  <script>
+    function checkPassword() {
+      var password = document.getElementById("password").value;
+      var confirmPassword = document.getElementById("confirmPassword").value;
+
+      if (password === confirmPassword) {
+        alert("Password and Confirm Password match!");
+      } else {
+        alert("Password and Confirm Password do not match.");
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1>Password Matching</h1>
+  <form>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+
+    <input type="button" value="Check Password" onclick="checkPassword()">
+  </form>
+</body>
+</html>

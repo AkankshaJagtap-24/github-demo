@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Background Color Changer</title>
+  <script>
+    function changeBackgroundColor(color) {
+      document.body.style.backgroundColor = color;
+    }
+  </script>
+</head>
+<body>
+  <h1>Background Color Changer</h1>
+  <form>
+    <label for="red">Red</label>
+    <input type="radio" id="red" name="color" value="red" onclick="changeBackgroundColor('red');">
+
+    <label for="green">Green</label>
+    <input type="radio" id="green" name="color" value="green" onclick="changeBackgroundColor('green');">
+
+    <label for="blue">Blue</label>
+    <input type="radio" id="blue" name="color" value="blue" onclick="changeBackgroundColor('blue');">
+  </form>
+</body>
+</html>

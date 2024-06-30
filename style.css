@@ -1,0 +1,67 @@
+/*#one{
+    height:350px;
+    width:120px;
+    background-color: grey;
+}
+#two{
+    height:100px;
+    width:100px;
+    background-color:rgb(255,0,0);
+    border-radius: 50%;
+    margin:10px;
+}
+#three{
+    height:100px;
+    width:100px;
+    background-color:rgb(255,255,0);
+    border-radius: 50%;
+    margin:10px;
+
+}
+#four{
+    height:100px;
+    width:100px;
+    background-color: green;
+    border-radius: 50%;
+    margin:10px;
+}*/
+/*Amazon nav*/
+*{
+    margin: 0;
+    padding: 0;
+   color: white;
+}
+#navbar{
+    
+    background-color: #0f1111;
+    height:60px;
+   
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+     color:#f08804;
+     font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+.contentBox{
+    height: 100px;
+    width: 100px;
+    border:2px solid black;
+    display: inline-block;
+    background-image:url("C:/Users/NITIN/Downloads/fatih-kgqu_qs3B78-unsplash.jpg");
+    background-size:cover;
+}
+#content{
+    height:500px;
+}
+footer{
+    color:white;
+    background-color: black;
+    text-align: center;
+}
